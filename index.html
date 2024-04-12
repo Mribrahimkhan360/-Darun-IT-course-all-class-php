@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Student Form</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 shadow p-4 mt-4">
+            <form action="details.php" method="post">
+                <div class="mb-3">
+                    <label class="form-label" for="name">Name</label>
+                    <input class="form-control" id="name" name="std_name" placeholder="Name*" type="text">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="id">ID</label>
+                    <input class="form-control" id="id" name="std_id" placeholder="ID*" type="number">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control" id="email" name="std_email" placeholder="Name*" type="text">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="phone">Phone</label>
+                    <input class="form-control" name="std_phone" id="phone" placeholder="Number*" type="tel">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="course">Course</label>
+                    <select aria-label="Default select example" class="form-select">
+                        <option selected> Select Course</option>
+                        <option value="graphic-design">Graphic Design</option>
+                        <option value="SEO">SEO</option>
+                        <option value="digital-marketing">Digital Marketing</option>
+                        <option value="web-design">Web Design</option>
+                        <option value="web-development">Web Development</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="course">Batch</label>
+                    <input class="form-control" id="batch" name="std_batch" placeholder="Batch*" type="number">
+                </div>
+                <input class="btn btn-primary" name="btn" type="submit" value="Generate Info">
+            </form>
+        </div>
+        <div class="col-md-6"></div>
+    </div>
+</div>
+</body>
+</html>

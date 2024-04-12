@@ -1,4 +1,8 @@
-
-<img src="Screenshot_1.png" height="400">
-<a href="https://youtube.com/playlist?list=PLaCUFUZ_YQwVGxKqjXaQcWEeTMIWeEFjX&si=oqeN0jg5PvkvHN0h">
-PLAY ALL PHP course with blog project in bangla</a>
+<img src="img/Screenshot_1.png"><br>
+<img src="img/Screenshot_2.png"><br>
+<img src="img/Screenshot_3.png"><br>
+<img src="img/Screenshot_4.png"><br>
+<img src="img/Screenshot_5.png"><br>
+<img src="img/Screenshot_6.png"><br>
+<img src="img/Screenshot7.png"><br>
+<img src="img/Screenshot8.png"><br>
